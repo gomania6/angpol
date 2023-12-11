@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+  }
+
+
+button {
+    font-size: 100%;
+}
+.form1 {
+    display:inline-flex;
+    border:1px solid black;
+    border-radius: 12px;
+}
+
+.btn1 {
+    font-size:100%;
+    border-radius: 12px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.odp {
+    border-radius: 12px;
+    font-size: 110%;
+    border: none;
+}
+
+.odp:focus {
+    border-radius: 12px;
+    font-size: 110%;
+    border: none;
+    outline: none;
+}
+
+.score {
+    font-size: 175%;
+}
+
+.unity, .unity1 {
+    font-size: 70%;
+}

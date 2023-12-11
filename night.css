@@ -1,0 +1,18 @@
+* {
+    background-color: black;
+    color: azure;
+}
+
+.form1 {
+    display:inline-flex;
+    border:1px solid white;
+    border-radius: 12px;
+}
+
+.btn1 {
+    font-size:100%;
+    border-radius: 12px;
+    border: none;
+    background-color: azure;
+    color: rgb(0, 0, 0);
+}

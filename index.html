@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+    <link rel="stylesheet" media="screen and (max-width: 1800px)" href="index.css">
+    <link rel="stylesheet" media="screen and (max-width: 800px)" href="small.css">
+    <link id="night" rel="stylesheet"href="night1.css"></link>
+
+</head>
+<body id="main">
+
+    <center>
+<h1><div class="unity" id="odp">Wybierz unit!</div></h1>
+<select id="unity" name="unity" onchange="unit()">
+    <option>Wybierz unit</option>
+    <option id="1" name="1" value="1">Unit 1</option>
+    <option id="2" name="2" value="2">Unit 2</option>
+</select><br><br> 
+<!--=========================================-->
+
+<div id="slowo"></div>
+
+<input type="button" id="b1" value="typ1">
+<input type="button" id="b2" value="typ2">
+<input type="button" id="b3" value="typ3">
+
+
+<!--=========================================-->
+
+<div id="mode"></div>
+</center>
+    <script src="unit1sc.js"></script>
+    <script src="main.js"></script>
+    <script src="game1.js"></script>
+
+</body>
+</html>
